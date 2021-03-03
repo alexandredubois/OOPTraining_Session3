@@ -1,4 +1,4 @@
-﻿La classe Vehicule
+﻿# La classe Vehicule
 
 1) Pouvez vous créer un objet de classe Vehicule dans le fichier Program.cs ? Essayez de deviner pourquoi.
 2) Quel méthode est accessible même sans créer d'objet depuis la classe Véhicule ? Pourquoi ?
@@ -6,7 +6,7 @@
 4) Créer une méthode Accelerer() qui incrémente la vitesse par pas de 10km/h
 5) Créer une méthode Freiner() qui décrémentela vitesse par pas de 10km/h (celle-ci ne doit jamais devenir négative !)
 
-La classe Voiture
+# La classe Voiture
 
 6) Créer la classe Voiture qui hérite de la classe Véhicule (cette classe ne doit pas contenir le mot clé "abstract")
 7) Créer un objet de type voiture dans Program.cs
@@ -18,7 +18,8 @@ La classe Voiture
 13) Recréer un objet de type Voiture
 14) Appeler de nouveau la méthode QuiEstDansLesParages(). Que constatez-vous ? Pourquoi le contenu n'est-il pas identique avec la précédente exécution ?
 
-La classe Camion
+# La classe Camion
+
 15) Créer une classe Camion qui hérite de véhicule (cette classe ne doit pas contenir le mot clé "abstract").
 16) Que faudrait-il faire pour que le Camion possède également la propriété "Marque" (sans dupliquer de code) ? Modifier vos classes en conséquence.
 17) Ajouter une nouvelle propriété "Tonnage" (de type entier).
@@ -28,7 +29,8 @@ La classe Camion
 21) A nouveau, créer plusieurs objets, certains de type Voiture, d'autres de type Camion. Appeler la méthode QuiEstDansLesParages(), que constatez-vous ?
 22) Pourquoi le code de la méthode QuiEstDansLesParages(), dans la classe "Vehicule" est capable de manipuler des objets comme de type Camion ou Voiture ?
 
-On mélange tout
+# On mélange tout
+
 23) Dans la classe Voiture, ajouter une nouvelle propriété privée de type booléen, "CoffreOuvert"
 24) Dans la classe Voiture, créer les méthodes publiques void OuvrirCoffre() et FermerCoffre qui influent sur cette propriété.
 25) Ces méthodes sont-elles accessibles depuis un objet Camion ? Pourquoi ?
