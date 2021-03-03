@@ -17,7 +17,7 @@ namespace VehiculeManager
             AjouterDansListe();
         }
 
-        public void QuiSuisJe()
+        public virtual void QuiSuisJe()
         {
             Console.WriteLine(string.Format(CultureInfo.InvariantCulture, "Je suis un véhicule non-identifié de couleur {0} qui se déplace à {1} km/h", Couleur, Vitesse));
         }
