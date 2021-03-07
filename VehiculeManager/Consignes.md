@@ -37,3 +37,25 @@
 26) Ces méthodes  seraient-elles accessibles depuis un objet Véhicule (si on pouvait en créer un) ? Pourquoi ?
 27) Dans les classes Voiture et Camion, redéfinissez la méthode Accélérer de la classe Véhicule (la Voiture accélère par pas de 10km/h jusqu'à 180km/h, le camion par pas de 5km/h jusqu'à 100km/h).
 28) Serait-il possible de reproduire ces différents comportements sans avoir à redéfinir cette méthode dans les classes Voiture et Camion ? Si oui, faites-le.
+
+# Méthodes abstraites
+
+29) Ajouter dans la classe Vehicule une méthode abstraite avec la signature suivante : public abstract string GetImmatriculation();
+30) Est-ce que votre programme compile toujours ? Faites le nécessaire dans les classes Voiture et Camion pour que votre programme compile à nouveau.
+
+#Interfaces
+
+31) Créer une interface VehiculeElectrique avec des méthodes 
+- void RechargerLaBatterie() qui remettra la batterie à 100%
+- int GetNiveauBatterie() qui retournera le niveau de batterie actuel
+32) Créer une interface VehiculeThermique avec des méthodes
+- void FaireLePlein() qui remettra le niveau de carburant à 100%
+- int GetNiveauBatterie() qui retournera le niveau de batterie
+33) Modifier la classe Camion pour qu'elle implémente l'interface VehiculeThermique. 
+- Lors du plein, un message s'affichera dans la console pour indiquer que le plein est fait.
+- La méthode Accélérer va désormais faire baisser de 15% le niveau de carburant à chaque appel.
+34) Créer une sous-classe "VoitureHybride" qui hérite de Voiture, et implémente les interfaces VehiculeThermique et VehiculeElectrique
+- Lors du plein, un message s'affichera dans la console pour indiquer que le plein est fait.
+- Lors de la recharge de batterie, un message s'affichera dans la console pour indiquer que la batterie est à 100%.
+- La méthode Accélérer va désormais faire baisser de 5% le niveau de carburant et 10% le niveau de batterie à chaque appel. Puis 15% de carburant à chaque appel quand la batterie est vide.
+35) Redéfinissez la méthode Accélérer dans cette nouvelle classe pour que si batterie et réservoir sont vides, alors la vitesse tombe à 0;
