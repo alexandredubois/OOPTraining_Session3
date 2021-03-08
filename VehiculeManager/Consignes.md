@@ -50,7 +50,7 @@
 - int GetNiveauBatterie() qui retournera le niveau de batterie actuel
 32) Créer une interface VehiculeThermique avec des méthodes
 - void FaireLePlein() qui remettra le niveau de carburant à 100%
-- int GetNiveauBatterie() qui retournera le niveau de batterie
+- int GetNiveauCarburant() qui retournera le niveau de batterie
 33) Modifier la classe Camion pour qu'elle implémente l'interface VehiculeThermique. 
 - Lors du plein, un message s'affichera dans la console pour indiquer que le plein est fait.
 - La méthode Accélérer va désormais faire baisser de 15% le niveau de carburant à chaque appel.
