@@ -1,7 +1,7 @@
 ﻿# La classe Vehicule
 
 1) Pouvez vous créer un objet de classe Vehicule dans le fichier Program.cs ? Essayez de deviner pourquoi.
-2) Quel méthode est accessible même sans créer d'objet depuis la classe Véhicule ? Pourquoi ?
+2) Quelle méthode est accessible même sans créer d'objet depuis la classe Véhicule ? Pourquoi ?
 3) Ajouter un nouveau constructeur à 2 paramètres qui permet en plus de spécifier une couleur et une vitesse.
 4) Créer une méthode Accelerer() qui incrémente la vitesse par pas de 10km/h
 5) Créer une méthode Freiner() qui décrémentera vitesse par pas de 10km/h (celle-ci ne doit jamais devenir négative !)
