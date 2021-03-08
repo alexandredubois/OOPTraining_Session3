@@ -45,10 +45,10 @@
 
 #Interfaces
 
-31) Créer une interface VehiculeElectrique avec des méthodes 
+31) Créer une interface IVehiculeElectrique avec des méthodes 
 - void RechargerLaBatterie() qui remettra la batterie à 100%
 - int GetNiveauBatterie() qui retournera le niveau de batterie actuel
-32) Créer une interface VehiculeThermique avec des méthodes
+32) Créer une interface IVehiculeThermique avec des méthodes
 - void FaireLePlein() qui remettra le niveau de carburant à 100%
 - int GetNiveauCarburant() qui retournera le niveau de batterie
 33) Modifier la classe Camion pour qu'elle implémente l'interface VehiculeThermique. 
