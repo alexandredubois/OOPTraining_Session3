@@ -4,14 +4,14 @@
 2) Quel méthode est accessible même sans créer d'objet depuis la classe Véhicule ? Pourquoi ?
 3) Ajouter un nouveau constructeur à 2 paramètres qui permet en plus de spécifier une couleur et une vitesse.
 4) Créer une méthode Accelerer() qui incrémente la vitesse par pas de 10km/h
-5) Créer une méthode Freiner() qui décrémentela vitesse par pas de 10km/h (celle-ci ne doit jamais devenir négative !)
+5) Créer une méthode Freiner() qui décrémentera vitesse par pas de 10km/h (celle-ci ne doit jamais devenir négative !)
 
 # La classe Voiture
 
 6) Créer la classe Voiture qui hérite de la classe Véhicule (cette classe ne doit pas contenir le mot clé "abstract")
 7) Créer un objet de type voiture dans Program.cs
 8) Quelles méthodes sont disponibles ?
-9) Faites un clic-droit sur la classe Vehicule et exécutez la méthode QuiEstDansLesParages(). Que constatez-vous ?
+9) Lancer votre application console pour exécuter la méthode QuiEstDansLesParages(). Que constatez-vous ?
 10) Ajouter les propriétés "Marque" et "Modele" dans la classe Voiture 
 11) Créer un constructeur attendant 4 paramètres qui va renseigner couleur, vitesse, marque et modèle de la voiture. (pensez au mot clé "base").
 12) Créer une méthode void QuiSuisJe() qui permettra d'afficher dans la console quelque chose de la forme suivante : "Je suis une voiture (Renault/Mégane) de couleur rouge et je me déplace à 100km/h.". (le contenu devra varier avec les valeurs des propriétés)
