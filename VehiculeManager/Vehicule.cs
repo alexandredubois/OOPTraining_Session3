@@ -8,6 +8,8 @@ namespace VehiculeManager
     {
         public string Couleur { get; set; }
         public int Vitesse { get; set; }
+        public string Marque { get; set; }
+
         private static List<Vehicule> Liste;
 
         public Vehicule()
@@ -16,6 +18,35 @@ namespace VehiculeManager
             Vitesse = 0;
             AjouterDansListe();
         }
+
+        public Vehicule(int vitesse, string couleur, string marque)
+        {
+            Couleur = couleur;
+            Vitesse = vitesse;
+            Marque = marque;
+            AjouterDansListe();
+        }
+
+        public virtual void Accelerer()
+        {
+            Vitesse += 10;
+        }
+
+
+        public void Freiner()
+        {
+            //Vitesse = Vitesse >= 10 ? Vitesse - 10 : 0;
+
+            if(Vitesse >= 10)
+            {
+                Vitesse -= 10;
+            } else
+            {
+                Vitesse = 0;
+            }
+        }
+
+        public abstract string GetImmatriculation();
 
         public virtual void QuiSuisJe()
         {
